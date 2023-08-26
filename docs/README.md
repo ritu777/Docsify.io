@@ -208,8 +208,11 @@ git push -u origin master
 **git push -u origin master**
 **git push :** It is the command for pushing your local changes to a remote repository. 
 **-u :** It stands for "set upstream", When we use -u with git push. 
+
 It establishes a tracking relationship between your local branch (in this case, "master") and the corresponding branch on the remote repository. 
+
 **origin :** Name of the remote repository. 
+
 **master :** It is the name of the local branch you want to push to the remote repository.
 
 
