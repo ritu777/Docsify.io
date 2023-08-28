@@ -252,6 +252,10 @@ git push -u origin master
 
 ![Alt text](branch.png)
 
+<span style="background-color: yellow;">- **git branch -M master**
+</span>
+
+
 - **git branch -M master**
 
 - **git branch :** This is the Git command for working with branches.
