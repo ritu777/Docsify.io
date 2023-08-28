@@ -177,7 +177,7 @@ podman ps -a
 
  ![Alt text](docs/local.png)
 
-#<u>Github</u>
+<h2><u>Github</u></h2>
 
  <h2>Step-1:-<u>Create repository</u> </h2>
 
@@ -199,7 +199,8 @@ git clone https://github.com/ritu777/Docsify.io
 ```
 ![Alt text](docs/clone.png)
 
-<h2>Step-3:-<u> Integrate with Github</u></h2>By following these commands:
+<h2>Step-3:-<u> Integrate with Github</u></h2>
+By following these commands:
 ```
 git init
 git add .
@@ -221,6 +222,7 @@ git push -u origin master
 ![Alt text](docs/branch.png)
 
 **"git init" :** This command is used to initialize a new git repository in a directory.
+
 **"git add .":** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
 **"git commit -m "first commit"**
@@ -240,12 +242,17 @@ git push -u origin master
  **master :** It is the new name you're assigning to the current branch.
 
  **"git remote add origin https://github.com/ritu777/...p.git"**
+ 
  **git remote add :** It is the Git command used to add a repository.
+ 
  **origin :** It is the default name used by Git when you clone a repository.
+ 
  **https://github.com/ritu777/...p.git -** It is the URL of the remote Git repository you want to add as a remote.
 
 **"git push -u origin master"**
+
 **git push :** It is the command for pushing your local changes to a remote repository. 
+
 **-u :** It stands for "set upstream", When we use -u with git push. 
 
 It establishes a tracking relationship between your local branch (in this case, "master") and the corresponding branch on the remote repository. 
