@@ -242,6 +242,7 @@ git push -u origin master
 - **git add .:** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
 ![Alt text](commit.png)
+
 **git commit -m "first commit"**
 
 - **git commit :** This is the core Git command for creating a new commit.
