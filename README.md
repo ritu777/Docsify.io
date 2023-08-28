@@ -53,8 +53,9 @@ sudo apt install -y podman
 mkdir docs
 ```
 
-mkdir- This command use for making a new directory
-docs- name of new directory.
+- **mkdir :** This command use for making a new directory
+- **docs :** name of new directory.
+  
 <h2> Step-3:- <u> Create Dockerfile</u></h2>
 
 ```
