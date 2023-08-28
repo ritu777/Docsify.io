@@ -51,6 +51,8 @@ sudo apt install -y podman
 
 - **-y :** automatically confirms the installation without asking for user input.
   
+- **podman :** It is the name of the package you want to install.
+  
 
 <h2>Step-2:- <u>Create directory</h2></u>
  
