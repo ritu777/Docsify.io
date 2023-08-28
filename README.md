@@ -123,7 +123,7 @@ Here we can check all files by using this command:
 
 - **ls :** ls is a Linux shell command that lists directory contents of files and directories.
 
-![Alt text](docs/ls.png)
+![Alt text](ls.png)
 
 
 
@@ -169,26 +169,31 @@ Here we can check all files by using this command:
 podman ps -a
 ```
 
-![Alt text](docs/id.png)
+![Alt text](id.png)
 
 
   you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other   information.
  
  <h2>Step-8:-<u> Preview Output</u></h2>
 
- ![Alt text](docs/local.png)
+ ![Alt text](local.png)
 
 <h2><u>Github</u></h2>
 
  <h2>Step-1:-<u>Create repository</u> </h2>
+ Make a new repository with  public account.
 
-![Alt text](docs/repo.png)
+![Alt text](new%20repo.png)
 
-Make a new repository with the  name and public account.
 
-Then it will show you like this:
+Give a name to new repository.
 
-![Alt text](docs/command.png)
+![Alt text](repo%20name.png)
+
+After entering the name, It will show like this:
+
+
+![Alt text](command.png)
 
 
 
@@ -198,7 +203,9 @@ Then it will show you like this:
 ``` 
 git clone https://github.com/ritu777/Docsify.io
 ```
-![Alt text](docs/clone.png)
+![Alt text](clone.png)
+- **git clone :** It is the Git command used to create a copy of a Git repository. 
+- **https://github.com/ritu777/Docsify.io :** It is the URL of the remote Git repository you want to clone. 
 
 <h2>Step-3:-<u> Integrate with Github</u></h2>
 By following these commands:
@@ -220,13 +227,13 @@ git push -u origin master
 
 
 
-![Alt text](docs/init.png)
+![Alt text](init.png)
 
-![Alt text](docs/add.png)
+![Alt text](add.png)
 
-![Alt text](docs/commit.png)
+![Alt text](commit.png)
 
-![Alt text](docs/branch.png)
+![Alt text](branch.png)
 
 - **"git init" :** This command is used to initialize a new git repository in a directory.
 
