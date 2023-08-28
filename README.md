@@ -49,6 +49,9 @@ sudo apt install -y podman
 - **apt :** This stands for "Advanced Package Tool.
  apt is used to install, update, and manage software packages on your sysytem.
 
+- **-y :** automatically confirms the installation without asking for user input.
+  
+
 <h2>Step-2:- <u>Create directory</h2></u>
  
 ```
