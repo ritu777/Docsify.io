@@ -242,7 +242,7 @@ git push -u origin master
 - **git add .:** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
 ![Alt text](commit.png)
-- **git commit -m "first commit"**
+**git commit -m "first commit"**
 
 - **git commit :** This is the core Git command for creating a new commit.
 
@@ -256,7 +256,7 @@ git push -u origin master
 </span>
 
 
-- **git branch -M master**
+ **git branch -M master**
 
 - **git branch :** This is the Git command for working with branches.
 
@@ -264,7 +264,7 @@ git push -u origin master
 
 -  **master :** It is the new name you're assigning to the current branch.
 
--  **git remote add origin https://github.com/ritu777/...p.git**
+   **git remote add origin https://github.com/ritu777/...p.git**
  
 -  **git remote add :** It is the Git command used to add a repository.
  
@@ -272,7 +272,7 @@ git push -u origin master
  
 -  **https://github.com/ritu777/...p.git -** It is the URL of the remote Git repository you want to add as a remote.
 
--  **git push -u origin master**
+  **git push -u origin master**
 
 - **git push :** It is the command for pushing your local changes to a remote repository. 
 
