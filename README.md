@@ -19,9 +19,11 @@ Docsify is a lightweight, flexible, and easy-to-set-up documentation generator t
 -  Github
   
 <u>**Podman**</u>
+
 Podman is a tool  that helps you run and manage software packages called containers on your computer.
 
 <u>**Github**</u>
+
 GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
 
 Now start a setup by following these steps:
