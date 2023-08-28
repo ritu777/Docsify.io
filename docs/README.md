@@ -58,9 +58,11 @@ docs- name of new directory.
 vim Dockerfile
 ```
 **vim :** use for create and edit a file.
+
 **Dockerfile :** Name of file.
 
 Add details in Dockerfile:
+
 ```
  FROM node:latest
   LABEL description="A demo Dockerfile for build Docsify."
@@ -68,14 +70,16 @@ Add details in Dockerfile:
   RUN npm install -g docsify-cli@latest
   EXPOSE 3000/tcp
   ENTRYPOINT docsify serve .
-
 ```
 <h2>Step-4:-<u>Create index.html</u></h2>
 ```
+
 vim index.html
+
 ```
 Add details in html file:
 ```
+
 <!-- index.html -->
 
 <!DOCTYPE html>
@@ -99,10 +103,13 @@ Add details in html file:
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   </body>
 </html>
+
 ```
 <h2>Step-5:-<u> Create  new file in md format</u></h2>
 ```
+
 touch README.md
+
 ```
 **touch :** use for creating new file.
 Here we can check all files by using this command:
@@ -112,6 +119,7 @@ Here we can check all files by using this command:
 
 
 <h2>Step-6:- <u>Build docker image</u></h2>
+
 ```
  podman build -f Dockerfile -t docsify/demo .
 ```
