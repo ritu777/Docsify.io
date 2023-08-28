@@ -128,7 +128,7 @@ touch README.md
 
 Here we can check all files by using this command:
 
-- **ls :** ls is a Linux shell command that lists directory contents of files and directories.
+- **ls :** It is a Linux shell command that lists directory contents of files and directories.
 
 ![Alt text](ls.png)
 
