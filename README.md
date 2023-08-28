@@ -27,6 +27,7 @@ GitHub is an online software development platform. It's used for storing, tracki
 Now start a setup by following these steps:
 
 <h2>Step-1:-<u> Install podman </h2></u>
+ 
 First update and upgrade by using this
 command :
 
@@ -61,6 +62,7 @@ vim Dockerfile
 ```
 
 **vim :** use for create and edit a file.
+
 **Dockerfile :** Name of file.
 
 Add details in Dockerfile:
@@ -115,8 +117,11 @@ touch README.md
 ```
 
 **touch :** use for creating new file.
+
 Here we can check all files by using this command:
+
 **ls :** ls is a Linux shell command that lists directory contents of files and directories.
+
 ![Alt text](docs/ls.png)
 
 
@@ -148,9 +153,11 @@ podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
  ```
 
  This command  will run a container based on the docsify/demo image.
+ 
  **Podman run-** It is used to run a container from the docsify/demo image.
 
    **-it-** An interactive terminal.
+   
    **p-** Indicates port mapping from host port 3000 to container port 3000.
 
 **-v :** It indicates volume mounted from your host's into the container
@@ -164,7 +171,8 @@ podman ps -a
 ![Alt text](docs/id.png)
 
 
- you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other information. 
+ you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other information.
+ 
  <h2>Step-8:-<u> Preview Output</u></h2>
 
  ![Alt text](docs/local.png)
@@ -174,8 +182,11 @@ podman ps -a
  <h2>Step-1:-<u>Create repository</u> </h2>
 
 ![Alt text](docs/repo.png)
+
 Make a new repository with the  name and public account.
+
 Then it will show you like this:
+
 ![Alt text](docs/command.png)
 
 
