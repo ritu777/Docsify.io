@@ -162,11 +162,11 @@ Here we can check all files by using this command:
 
   This command  will run a container based on the docsify/demo image.
  
--  **Podman run-** It is used to run a container from the docsify/demo image.
+-  **Podman run :** It is used to run a container from the docsify/demo image.
   
--  **-it-** An interactive terminal.
+-  **-it :** An interactive terminal.
    
--   **p-** Indicates port mapping from host port 3000 to container port 3000.
+-   **p :** Indicates port mapping from host port 3000 to container port 3000.
 
 - **-v :** It indicates volume mounted from your host's into the container
 
@@ -242,7 +242,7 @@ git push -u origin master
 - **git add .:** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
 ![Alt text](commit.png)
-- **git commit -m "first commit**
+- **git commit -m "first commit"**
 
 - **git commit :** This is the core Git command for creating a new commit.
 
