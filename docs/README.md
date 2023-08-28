@@ -28,12 +28,15 @@ Now start a setup by following these steps:
 
 <h2>Step-1:-<u> Install podman </h2></u>
 First update and upgrade by using this
+ 
 command : 
+
 ```
 sudo apt update
 sudo apt upgrade
 ```
 Then use podman installation command:
+
 ```
 sudo apt install -y podman
 ```
@@ -43,12 +46,14 @@ sudo apt install -y podman
  apt is used to install, update, and manage software packages on your sysytem.
 
 <h2>Step-2:- <u>Create directory</h2></u>
+ 
 ```
 mkdir docs
 ```
 mkdir- This command use for making a new directory
 docs- name of new directory.
 <h2> Step-3:- <u> Create Dockerfile</u></h2>
+
 ```
 vim Dockerfile
 ```
