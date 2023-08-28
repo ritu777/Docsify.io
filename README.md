@@ -228,18 +228,14 @@ git push -u origin master
 
 
 ![Alt text](init.png)
+- **git init :** This command is used to initialize a new git repository in a directory.
+
 
 ![Alt text](add.png)
+- **git add .:** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
 ![Alt text](commit.png)
-
-![Alt text](branch.png)
-
-- **"git init" :** This command is used to initialize a new git repository in a directory.
-
-- **"git add .":** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
-
-- **"git commit -m "first commit"**
+- **git commit -m "first commit**
 
 - **git commit :** This is the core Git command for creating a new commit.
 
@@ -247,7 +243,9 @@ git push -u origin master
 
 - **"first commit" :** This is the actual commit message you provide. It should be enclosed in double or single quotes. 
 
-- **"git branch -M master"**
+![Alt text](branch.png)
+
+- **git branch -M master**
 
 - **git branch :** This is the Git command for working with branches.
 
@@ -255,7 +253,7 @@ git push -u origin master
 
 -  **master :** It is the new name you're assigning to the current branch.
 
--  **"git remote add origin https://github.com/ritu777/...p.git"**
+-  **git remote add origin https://github.com/ritu777/...p.git**
  
 -  **git remote add :** It is the Git command used to add a repository.
  
