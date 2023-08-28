@@ -49,7 +49,7 @@ sudo apt install -y podman
 - **apt :** This stands for "Advanced Package Tool.
  apt is used to install, update, and manage software packages on your sysytem.
 
-- **-y :** automatically confirms the installation without asking for user input.
+- **-y :** Automatically confirms the installation without asking for user input.
   
 - **podman :** It is the name of the package you want to install.
   
@@ -61,7 +61,7 @@ mkdir docs
 ```
 
 - **mkdir :** This command use for making a new directory
-- **docs :** name of new directory.
+- **docs :** Name of new directory.
   
 <h2> Step-3:- <u> Create Dockerfile</u></h2>
 
@@ -69,7 +69,7 @@ mkdir docs
 vim Dockerfile
 ```
 
-- **vim :** use for create and edit a file.
+- **vim :** Use for create and edit a file.
 
 - **Dockerfile :** Name of file.
 
@@ -124,7 +124,7 @@ Add details in html file:
 touch README.md
 ```
 
-- **touch :** use for creating new file.
+- **touch :** Use for creating new file.
 
 Here we can check all files by using this command:
 
@@ -179,7 +179,7 @@ podman ps -a
 ![Alt text](id.png)
 
 
-  you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other   information.
+  You are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other   information.
  
  <h2>Step-8:-<u> Preview Output</u></h2>
 
@@ -268,7 +268,7 @@ git push -u origin master
  
 -  **https://github.com/ritu777/...p.git -** It is the URL of the remote Git repository you want to add as a remote.
 
--  **"git push -u origin master"**
+-  **git push -u origin master**
 
 - **git push :** It is the command for pushing your local changes to a remote repository. 
 
