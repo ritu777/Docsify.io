@@ -116,7 +116,7 @@ Add details in html file:
 touch README.md
 ```
 
-**touch :** use for creating new file.
+- **touch :** use for creating new file.
 
 Here we can check all files by using this command:
 
