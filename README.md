@@ -201,12 +201,18 @@ git clone https://github.com/ritu777/Docsify.io
 
 <h2>Step-3:-<u> Integrate with Github</u></h2>
 By following these commands:
+
 ```
 git init
+
 git add .
+
 git commit -m "first commit"
+
 git branch -M master
+
 git remote add origin https://github.com/ritu777/...p.git
+
 git push -u origin master
 ```
 
