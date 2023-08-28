@@ -42,9 +42,9 @@ Then use podman installation command:
 sudo apt install -y podman
 ```
 
-**sudo :** Superuser do
+- **sudo :** Superuser do
 
-**apt :** This stands for "Advanced Package Tool.
+- **apt :** This stands for "Advanced Package Tool.
  apt is used to install, update, and manage software packages on your sysytem.
 
 <h2>Step-2:- <u>Create directory</h2></u>
@@ -61,9 +61,9 @@ docs- name of new directory.
 vim Dockerfile
 ```
 
-**vim :** use for create and edit a file.
+- **vim :** use for create and edit a file.
 
-**Dockerfile :** Name of file.
+- **Dockerfile :** Name of file.
 
 Add details in Dockerfile:
 
@@ -120,7 +120,7 @@ touch README.md
 
 Here we can check all files by using this command:
 
-**ls :** ls is a Linux shell command that lists directory contents of files and directories.
+- **ls :** ls is a Linux shell command that lists directory contents of files and directories.
 
 ![Alt text](docs/ls.png)
 
@@ -132,37 +132,37 @@ Here we can check all files by using this command:
  podman build -f Dockerfile -t docsify/demo .
 ```
 
-**podman build :** Initiating the container image building process means starting the procedure to create a new container image. 
+- **podman build :** Initiating the container image building process means starting the procedure to create a new container image. 
 
-**-f :** It stands for file.
+- **-f :** It stands for file.
 
-**Dockerfile :** It specifies the name of the Dockerfile that should be used for the container image build.
+- **Dockerfile :** It specifies the name of the Dockerfile that should be used for the container image build.
 
-**-t :** It stands for tag.
+- **-t :** It stands for tag.
 
-**docsify :** This is the name for the image.
+- **docsify :** This is the name for the image.
 
-**/ :** It uses for path separator in file and directory path.
+- **/ :** It uses for path separator in file and directory path.
 
-**demo :** This is the tag for the image.
+- **demo :** This is the tag for the image.
 <h2>Step-7:-<u>Run podman</u></h2>
 
 ```
-podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
- docsify/demo
+   podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
+    docsify/demo
  ```
 
- This command  will run a container based on the docsify/demo image.
+  This command  will run a container based on the docsify/demo image.
  
- **Podman run-** It is used to run a container from the docsify/demo image.
-
-   **-it-** An interactive terminal.
+-  **Podman run-** It is used to run a container from the docsify/demo image.
+  
+-  **-it-** An interactive terminal.
    
-   **p-** Indicates port mapping from host port 3000 to container port 3000.
+-   **p-** Indicates port mapping from host port 3000 to container port 3000.
 
-**-v :** It indicates volume mounted from your host's into the container
+- **-v :** It indicates volume mounted from your host's into the container
 
- Now check container id and images by using command:
+    Now check container id and images by using command:
  
  ```
 podman ps -a
@@ -171,7 +171,7 @@ podman ps -a
 ![Alt text](docs/id.png)
 
 
- you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other information.
+  you are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other   information.
  
  <h2>Step-8:-<u> Preview Output</u></h2>
 
@@ -227,45 +227,45 @@ git push -u origin master
 
 ![Alt text](docs/branch.png)
 
-**"git init" :** This command is used to initialize a new git repository in a directory.
+- **"git init" :** This command is used to initialize a new git repository in a directory.
 
-**"git add .":** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
+- **"git add .":** Any modifications you've made to files, any new files you've created, or any file deletions you've performed within the current directory and its subdirectories will be staged and ready for the next commit.
 
-**"git commit -m "first commit"**
+- **"git commit -m "first commit"**
 
-**git commit :** This is the core Git command for creating a new commit.
+- **git commit :** This is the core Git command for creating a new commit.
 
-**-m :** It stands for message.
+- **-m :** It stands for message.
 
-**"first commit" :** This is the actual commit message you provide. It should be enclosed in double or single quotes. 
+- **"first commit" :** This is the actual commit message you provide. It should be enclosed in double or single quotes. 
 
-**"git branch -M master"**
+- **"git branch -M master"**
 
-**git branch :** This is the Git command for working with branches.
+- **git branch :** This is the Git command for working with branches.
 
- **-M :** It stands for "move" or "rename", When used with git branch, it renames the current branch to the specified name.
+- **-M :** It stands for "move" or "rename", When used with git branch, it renames the current branch to the specified name.
 
- **master :** It is the new name you're assigning to the current branch.
+-  **master :** It is the new name you're assigning to the current branch.
 
- **"git remote add origin https://github.com/ritu777/...p.git"**
+-  **"git remote add origin https://github.com/ritu777/...p.git"**
  
- **git remote add :** It is the Git command used to add a repository.
+-  **git remote add :** It is the Git command used to add a repository.
  
- **origin :** It is the default name used by Git when you clone a repository.
+-  **origin :** It is the default name used by Git when you clone a repository.
  
- **https://github.com/ritu777/...p.git -** It is the URL of the remote Git repository you want to add as a remote.
+-  **https://github.com/ritu777/...p.git -** It is the URL of the remote Git repository you want to add as a remote.
 
-**"git push -u origin master"**
+-  **"git push -u origin master"**
 
-**git push :** It is the command for pushing your local changes to a remote repository. 
+- **git push :** It is the command for pushing your local changes to a remote repository. 
 
-**-u :** It stands for "set upstream", When we use -u with git push. 
+- **-u :** It stands for "set upstream", When we use -u with git push. 
 
-It establishes a tracking relationship between your local branch (in this case, "master") and the corresponding branch on the remote repository. 
+  It establishes a tracking relationship between your local branch (in this case, "master") and the corresponding branch on the remote repository. 
 
-**origin :** Name of the remote repository. 
+- **origin :** Name of the remote repository. 
 
-**master :** It is the name of the local branch you want to push to the remote repository.
+- **master :** It is the name of the local branch you want to push to the remote repository.
 
 
 
