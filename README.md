@@ -28,34 +28,43 @@ Now start a setup by following these steps:
 
 <h2>Step-1:-<u> Install podman </h2></u>
 First update and upgrade by using this
-command : 
+command :
+
 ```
 sudo apt update
 sudo apt upgrade
 ```
+
 Then use podman installation command:
+
 ```
 sudo apt install -y podman
 ```
+
 **sudo :** Superuser do
 
 **apt :** This stands for "Advanced Package Tool.
  apt is used to install, update, and manage software packages on your sysytem.
 
 <h2>Step-2:- <u>Create directory</h2></u>
+ 
 ```
 mkdir docs
 ```
+
 mkdir- This command use for making a new directory
 docs- name of new directory.
 <h2> Step-3:- <u> Create Dockerfile</u></h2>
+
 ```
 vim Dockerfile
 ```
+
 **vim :** use for create and edit a file.
 **Dockerfile :** Name of file.
 
 Add details in Dockerfile:
+
 ```
  FROM node:latest
   LABEL description="A demo Dockerfile for build Docsify."
@@ -63,13 +72,16 @@ Add details in Dockerfile:
   RUN npm install -g docsify-cli@latest
   EXPOSE 3000/tcp
   ENTRYPOINT docsify serve .
-
 ```
+
 <h2>Step-4:-<u>Create index.html</u></h2>
+
 ```
 vim index.html
 ```
+
 Add details in html file:
+
 ```
 <!-- index.html -->
 
@@ -95,10 +107,13 @@ Add details in html file:
   </body>
 </html>
 ```
+
 <h2>Step-5:-<u> Create  new file in md format</u></h2>
+
 ```
 touch README.md
 ```
+
 **touch :** use for creating new file.
 Here we can check all files by using this command:
 **ls :** ls is a Linux shell command that lists directory contents of files and directories.
@@ -107,9 +122,11 @@ Here we can check all files by using this command:
 
 
 <h2>Step-6:- <u>Build docker image</u></h2>
+
 ```
  podman build -f Dockerfile -t docsify/demo .
 ```
+
 **podman build :** Initiating the container image building process means starting the procedure to create a new container image. 
 
 **-f :** It stands for file.
@@ -124,10 +141,12 @@ Here we can check all files by using this command:
 
 **demo :** This is the tag for the image.
 <h2>Step-7:-<u>Run podman</u></h2>
+
 ```
 podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
  docsify/demo
  ```
+
  This command  will run a container based on the docsify/demo image.
  **Podman run-** It is used to run a container from the docsify/demo image.
 
@@ -137,9 +156,11 @@ podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
 **-v :** It indicates volume mounted from your host's into the container
 
  Now check container id and images by using command:
+ 
  ```
 podman ps -a
 ```
+
 ![Alt text](docs/id.png)
 
 
