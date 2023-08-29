@@ -156,8 +156,7 @@ Here we can check all files by using this command:
 <h2>Step-7:-<u>Run podman</u></h2>
 
 ```
-   podman run -itp 3000:3000 --name=docsify -v /home/ritu/Desktop/docs
-    docsify/demo
+   podman run -d -p 3000:3000 --name=docsify -v /home/ritu/Desktop/docs:docsify/demo
  ```
 
   This command  will run a container based on the docsify/demo image.
