@@ -153,27 +153,29 @@ Here we can check all files by using this command:
 - **/ :** It uses for path separator in file and directory path.
 
 - **demo :** This is the tag for the image.
+  
+  This command is used to manage container images in Podman.
+  
 <h2>Step-7:-<u>Run podman</u></h2>
-
+Create a podman container for docsify.
 ```
-   podman run -d -p 3000:3000 --name=docsify -v /home/ritu/Desktop/docs:docsify/demo
+   podman run -d -p 3000:3000 -v /home/ritu/Desktop/docs:/docs localhost/docsify/demo
  ```
 
   This command  will run a container based on the docsify/demo image.
  
 -  **Podman run :** It is used to run a container from the docsify/demo image.
   
--  **-it :** An interactive terminal.
+-  **-d (detach mode):** It allows the container to run in the background. It's useful for users who don't want to see the container's output in the terminal.
    
--   **p :** Indicates port mapping from host port 3000 to container port 3000.
+-   **-p (port forwarding):**  It enables port forwarding between the container and the host system.
 
 - **-v :** It indicates volume mounted from your host's into the container
-
-    Now check container id and images by using command:
  
  ```
 podman ps -a
 ```
+This command is used to see all containers on your system, both running and stopped.
 
 ![Alt text](id.png)
 
