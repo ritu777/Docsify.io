@@ -182,8 +182,6 @@ This command is used to see all containers on your system, both running and stop
 
 ![Alt text](id.png)
 
-
-  You are instructing Podman to list all containers, both running and stopped, along with details such as their container IDs, names, status, and other   information.
  
  <h2>Step-8:-<u> Preview Output</u></h2>
 
