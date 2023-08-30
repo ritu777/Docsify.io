@@ -155,9 +155,12 @@ Here we can check all files by using this command:
 - **demo :** This is the tag for the image.
   
   This command is used to manage container images in Podman.
+
+![Alt text](images.png)
   
 <h2>Step-7:-<u>Run podman</u></h2>
 Create a podman container for docsify.
+
 ```
    podman run -d -p 3000:3000 -v /home/ritu/Desktop/docs:/docs localhost/docsify/demo
  ```
